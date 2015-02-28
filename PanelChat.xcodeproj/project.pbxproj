@@ -13,6 +13,13 @@
 		32D580BA1AA12F7000C67A37 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32D580B91AA12F7000C67A37 /* Images.xcassets */; };
 		32D580BD1AA12F7000C67A37 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32D580BB1AA12F7000C67A37 /* LaunchScreen.xib */; };
 		32D580C91AA12F7000C67A37 /* PanelChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D580C81AA12F7000C67A37 /* PanelChatTests.swift */; };
+		32D580D31AA1C3B200C67A37 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D580D21AA1C3B200C67A37 /* ProfileViewController.swift */; };
+		32D580D51AA1C3E800C67A37 /* PanelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D580D41AA1C3E800C67A37 /* PanelDetailViewController.swift */; };
+		32D580D71AA1C41F00C67A37 /* CreatePanelModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D580D61AA1C41F00C67A37 /* CreatePanelModalController.swift */; };
+		32D580D91AA1C47900C67A37 /* NewsFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D580D81AA1C47900C67A37 /* NewsFeedController.swift */; };
+		32D580DB1AA1C4AF00C67A37 /* NewsFeedDetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D580DA1AA1C4AF00C67A37 /* NewsFeedDetailsController.swift */; };
+		32D580DD1AA1C4E000C67A37 /* PanelCommentsModalController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D580DC1AA1C4E000C67A37 /* PanelCommentsModalController.swift */; };
+		32D580DF1AA1C51800C67A37 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32D580DE1AA1C51800C67A37 /* NotificationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,13 @@
 		32D580C21AA12F7000C67A37 /* PanelChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PanelChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32D580C71AA12F7000C67A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32D580C81AA12F7000C67A37 /* PanelChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanelChatTests.swift; sourceTree = "<group>"; };
+		32D580D21AA1C3B200C67A37 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		32D580D41AA1C3E800C67A37 /* PanelDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelDetailViewController.swift; sourceTree = "<group>"; };
+		32D580D61AA1C41F00C67A37 /* CreatePanelModalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePanelModalController.swift; sourceTree = "<group>"; };
+		32D580D81AA1C47900C67A37 /* NewsFeedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedController.swift; sourceTree = "<group>"; };
+		32D580DA1AA1C4AF00C67A37 /* NewsFeedDetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsFeedDetailsController.swift; sourceTree = "<group>"; };
+		32D580DC1AA1C4E000C67A37 /* PanelCommentsModalController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PanelCommentsModalController.swift; sourceTree = "<group>"; };
+		32D580DE1AA1C51800C67A37 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,7 @@
 		32D580AF1AA12F7000C67A37 /* PanelChat */ = {
 			isa = PBXGroup;
 			children = (
+				32D580E01AA1C51B00C67A37 /* Views */,
 				32D580B21AA12F7000C67A37 /* AppDelegate.swift */,
 				32D580B41AA12F7000C67A37 /* ViewController.swift */,
 				32D580B61AA12F7000C67A37 /* Main.storyboard */,
@@ -110,6 +125,20 @@
 				32D580C71AA12F7000C67A37 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32D580E01AA1C51B00C67A37 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32D580D21AA1C3B200C67A37 /* ProfileViewController.swift */,
+				32D580D41AA1C3E800C67A37 /* PanelDetailViewController.swift */,
+				32D580D61AA1C41F00C67A37 /* CreatePanelModalController.swift */,
+				32D580D81AA1C47900C67A37 /* NewsFeedController.swift */,
+				32D580DA1AA1C4AF00C67A37 /* NewsFeedDetailsController.swift */,
+				32D580DC1AA1C4E000C67A37 /* PanelCommentsModalController.swift */,
+				32D580DE1AA1C51800C67A37 /* NotificationsViewController.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +241,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D580DF1AA1C51800C67A37 /* NotificationsViewController.swift in Sources */,
+				32D580D91AA1C47900C67A37 /* NewsFeedController.swift in Sources */,
+				32D580DB1AA1C4AF00C67A37 /* NewsFeedDetailsController.swift in Sources */,
+				32D580D51AA1C3E800C67A37 /* PanelDetailViewController.swift in Sources */,
+				32D580D31AA1C3B200C67A37 /* ProfileViewController.swift in Sources */,
+				32D580DD1AA1C4E000C67A37 /* PanelCommentsModalController.swift in Sources */,
+				32D580D71AA1C41F00C67A37 /* CreatePanelModalController.swift in Sources */,
 				32D580B51AA12F7000C67A37 /* ViewController.swift in Sources */,
 				32D580B31AA12F7000C67A37 /* AppDelegate.swift in Sources */,
 			);
@@ -407,6 +443,7 @@
 				32D580CE1AA12F7000C67A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32D580CF1AA12F7000C67A37 /* Build configuration list for PBXNativeTarget "PanelChatTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +452,7 @@
 				32D580D11AA12F7000C67A37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
