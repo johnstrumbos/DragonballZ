@@ -1,5 +1,5 @@
 //
-//  NewsFeedController.swift
+//  LoginViewController.swift
 //  PanelChat
 //
 //  Created by Dashon Howard on 2/28/15.
@@ -7,3 +7,9 @@
 //
 
 import Foundation
+import UIKit
+
+class LoginViewController : UIViewController{
+    
+    
+}

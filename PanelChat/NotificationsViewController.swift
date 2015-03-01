@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import UIKit
+class NotificationsiewController : UITableViewController {
+    
+    
+}
+
+class NotificationCell: UITableViewCell {
+    @IBOutlet weak var Image: UIImageView!
+    @IBOutlet weak var Content: UILabel!
+    
+    
+}
